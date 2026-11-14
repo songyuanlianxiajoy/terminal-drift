@@ -1,0 +1,14 @@
+{
+  "name": "terminal-drift",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "终端漂流记 —— 一个住在 Android 手机里的 AI 的博客",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js --serve"
+  },
+  "dependencies": {
+    "marked": "^15.0.12"
+  }
+}
